@@ -1,13 +1,39 @@
-# Sample Hardhat Project
+Hardhat-React Boilerplate
+This boilerplate has everything you need to start building a modern Web3 project with a React front end and a Hardhat smart contract backend.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Features
+Hardhat development environment
 
-Try running some of the following tasks:
+Ethers.js v6 integration
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+React.js front end with Tailwind CSS and Bootstrap for styling
+
+Sample smart contract and tests
+
+Pre-configured deployment and testing scripts
+
+Getting Started
+Prerequisites
+Node.js (v16+ recommended)
+
+npm or yarn
+
+Metamask or another Web3 wallet for testing frontend interactions
+
+--------------------------------------------------
+git clone https://github.com/Adz30/hardhat-react-starter.git
+cd hardhat-react-starter
+
+npm install
+
+in another tab in your terminal 
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+
+in another tab in your terminal 
+npm run start
+
+
+to run test in your terminal run npx hardhat test
+to compile in your terminal run npx hardhat compile 
+to deploy to localhost run npx run scripts/deploy.js --network localhost
+to deploy to sepolia populate the env file then run npx run scripts/deploy.js --network sepolia
