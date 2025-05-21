@@ -1,11 +1,15 @@
 {
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.24.0"
-  },
-  "name": "hardhat-starter",
+  "name": "fund-distributor",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "adm-zip": "^0.4.16",
     "agent-base": "^6.0.2",
@@ -51,7 +55,6 @@
     "escalade": "^3.2.0",
     "escape-string-regexp": "^4.0.0",
     "ethereum-cryptography": "^1.2.0",
-    "ethers": "^6.14.1",
     "fdir": "^6.4.4",
     "fill-range": "^7.1.1",
     "find-up": "^5.0.0",
@@ -159,12 +162,11 @@
     "yargs-unparser": "^2.0.0",
     "yocto-queue": "^0.1.0"
   },
-  "scripts": {
-    "compile": "hardhat compile",
-    "test": "hardhat test"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.14.1",
+    "hardhat": "^2.24.0",
+    "mocha": "^10.2.0"
+  }
 }
